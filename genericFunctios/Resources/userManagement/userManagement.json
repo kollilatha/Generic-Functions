@@ -1,0 +1,33 @@
+{
+"addUser":{
+"page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+			"id": 20,
+            "email": "kollilatha97@gmail.in",
+            "first_name": "kolliadd",
+            "last_name": "lathaadd",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg",
+            "expectedstatuscode":201,
+            "expectedemail": "kollilatha97@gmail.in",
+			"expectedfirst_name": "kolliadd",
+			"expectedlast_name": "lathaadd"
+
+},
+"updateUser":{
+ 			"first_name": "kolli",
+            "last_name": "latha"
+},
+"delUser":{
+"id": 9
+},
+
+"getspecificuser":{
+"id": 1,
+"expectedstatuscode":"200",
+"expectedemail": "george.bluth@reqres.in",
+"expectedfirst_name": "George",
+"expectedlast_name": "Bluth"
+}
+}
